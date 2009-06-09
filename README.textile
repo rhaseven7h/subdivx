@@ -22,3 +22,37 @@ h2. Installation
 p. Just unpack, install requirements and run.
 
 
+h2. Change Log
+
+<pre>
+commit 19b7b2115b98178621a1cf4ecb848eba86a87794
+Author: root <root@jupiter.(none)>
+Date:   Mon Jun 8 23:53:43 2009 -0600
+
+    Corrected some errors with the inline glade loading.
+
+commit 9d7a644a9cddf8cd559e71d09d86142889e9d533
+Author: root <root@jupiter.(none)>
+Date:   Mon Jun 8 23:46:10 2009 -0600
+
+    Added inline glade
+
+commit bf4e42f22685773c64e90ebf89ee79be2bf74dd5
+Author: Gabriel Medina <rha7.com@gmail.com>
+Date:   Mon Jun 8 20:12:01 2009 -0600
+
+    Added cache/* files to .gitignore
+
+commit fa38d1e7ca03189b251cb200efe5dc5144a6c8cb
+Author: Gabriel Medina <rha7.com@gmail.com>
+Date:   Mon Jun 8 20:11:19 2009 -0600
+
+    Removed cached files
+
+commit bc8302c962107124b671753a3f97ba6f6a020d4e
+Author: Gabriel Medina <rha7.com@gmail.com>
+Date:   Mon Jun 8 20:09:49 2009 -0600
+
+    Initial Import
+</pre>
+

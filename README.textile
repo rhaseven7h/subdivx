@@ -1,0 +1,24 @@
+h1. SubDivX
+
+h2. Subtitle downloader for http://www.subdivx.com/
+
+p. As simple as that, it let's you search, download and extract subtitles in spanish for divx movies.
+
+h2. Requirements
+
+p. Packages:
+
+* Ruby
+* Gems
+
+p. Gems
+
+* nokogiri
+* open-uri
+* Ruby-GNOME2
+
+h2. Installation
+
+p. Just unpack, install requirements and run.
+
+

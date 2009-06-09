@@ -1,4 +1,23 @@
 <?xml version="1.0"?>
+<!--
+#
+#   This file is part of SubDivX.
+#
+#   SubDivX is free software: you can redistribute it and/or modify
+#   it under the terms of the GNU General Public License as published by
+#   the Free Software Foundation, either version 3 of the License.
+#
+#   SubDivX is distributed in the hope that it will be useful,
+#   but WITHOUT ANY WARRANTY; without even the implied warranty of
+#   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#   GNU General Public License for more details.
+#
+#   You should have received a copy of the GNU General Public License
+#   along with SubDivX, if not, see <http://www.gnu.org/licenses/>.
+#
+#   See the LICENSE file.
+#
+-->
 <interface>
   <requires lib="gtk+" version="2.16"/>
   <!-- interface-naming-policy project-wide -->

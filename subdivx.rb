@@ -1,4 +1,21 @@
 #!/usr/bin/env ruby
+#
+#   This file is part of SubDivX.
+#
+#   SubDivX is free software: you can redistribute it and/or modify
+#   it under the terms of the GNU General Public License as published by
+#   the Free Software Foundation, either version 3 of the License.
+#
+#   SubDivX is distributed in the hope that it will be useful,
+#   but WITHOUT ANY WARRANTY; without even the implied warranty of
+#   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#   GNU General Public License for more details.
+#
+#   You should have received a copy of the GNU General Public License
+#   along with SubDivX, if not, see <http://www.gnu.org/licenses/>.
+#
+#   See the LICENSE file.
+#
 
 require 'rubygems'
 require 'tmpdir'
@@ -69,7 +86,7 @@ class SubDivXGUI
   def initialize
     @subdivxclient = SubDivXClient.new
     @gtk = Gtk::Builder.new
-    @gtk << open(__FILE__).readlines[193..-1].map{ |line| line[2..-1] }.join.unpack('u')[0]
+    @gtk << open(__FILE__).readlines[210..-1].map{ |line| line[2..-1] }.join.unpack('u')[0]
     @gtk.connect_signals do |hn|
       case hn
         when "on_button_quit_clicked"          then lambda { |widget| app_quit(widget) } 

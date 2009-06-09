@@ -49,9 +49,10 @@ class SubDivXClient
     u = doc.css("input[type='hidden'][name='u']")[0][:value]
     fn = ""
     out_dir = File.join(Dir.tmpdir, "subdivx")
-    out_file = FileUtils.join(out_dir, fn)
+    out_file = ''
     open("http://www.subdivx.com/bajar.php?captcha_user=ME2&idcaptcha=1007&desub=#{desub}&u=#{u}", "referer" => @results[int_num][:link]) do |h|
       fn = h.meta["content-disposition"].split(';')[1].split('=')[1]
+      out_file = File.join(out_dir, fn)
       FileUtils.mkdir_p(out_dir)
       File.open(out_file, "w") do |o|
         o.write(h.read)
@@ -68,7 +69,7 @@ class SubDivXGUI
   def initialize
     @subdivxclient = SubDivXClient.new
     @gtk = Gtk::Builder.new
-    @gtk << open(__FILE__).readlines[192..-1].map{ |line| line[2..-1] }.join.unpack('u')[0]
+    @gtk << open(__FILE__).readlines[193..-1].map{ |line| line[2..-1] }.join.unpack('u')[0]
     @gtk.connect_signals do |hn|
       case hn
         when "on_button_quit_clicked"          then lambda { |widget| app_quit(widget) } 

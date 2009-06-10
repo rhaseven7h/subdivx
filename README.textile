@@ -4,6 +4,10 @@ h2. Subtitle downloader for http://www.subdivx.com/
 
 p. As simple as that, it let's you search, download and extract subtitles in spanish for divx movies.
 
+h2. Screenshot
+
+p. !http://lh6.ggpht.com/_gswK3oaYqd0/Si_-ZespkAI/AAAAAAAAAD4/1tjPiLCfPUQ/Screenshot-subdivx.png!
+
 h2. Requirements
 
 p. Packages:

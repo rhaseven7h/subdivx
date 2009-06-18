@@ -28,6 +28,18 @@ p. Just unpack, install requirements and run.
 h2. Change Log
 
 <pre>
+commit 77938eb4dde14194fcb6d35b840887c528e40c77
+Author: Gabriel Medina <gmedina@ubuntu.ubuntu-domain>
+Date:   Thu Jun 18 02:02:19 2009 -0600
+
+    Deprecated Ruby version, superseded by python version. Ruby version wont be maintained anymore.
+
+commit a752ed20dfc2d5d9e3c6c9cde638e6db17261f9d
+Author: Gabriel Medina <gmedina@ubuntu.ubuntu-domain>
+Date:   Thu Jun 18 00:36:06 2009 -0600
+
+    Updated README
+
 commit a22d5dc2e57a92ef609bc8cf2e9897701741c381
 Author: Gabriel Medina <gmedina@ubuntu.ubuntu-domain>
 Date:   Thu Jun 18 00:33:56 2009 -0600
@@ -118,3 +130,4 @@ Date:   Mon Jun 8 20:09:49 2009 -0600
 
     Initial Import
 </pre>
+

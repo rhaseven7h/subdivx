@@ -26,7 +26,7 @@ class SubDivXGUI:
   def __init__(self):
     self.subdivxclient = subdivxclient.SubDivXClient()
     self.builder = gtk.Builder()
-    self.builder.add_from_file('subdivx.glade')
+    self.builder.add_from_file('/var/lib/subdivx/subdivx.glade')
     self.builder.connect_signals({
       'on_button_quit_clicked'         : self.app_quit,
       'on_window_subdivx_destroy'      : self.app_quit,

@@ -29,6 +29,66 @@ p. Just unpack, install requirements and run.
 h2. Change Log
 
 <pre>
+commit a22d5dc2e57a92ef609bc8cf2e9897701741c381
+Author: Gabriel Medina <gmedina@ubuntu.ubuntu-domain>
+Date:   Thu Jun 18 00:33:56 2009 -0600
+
+    Removed *.pyc-s
+
+commit f2c974171ea00fe9d0cf44be6b02bced598d7046
+Author: Gabriel Medina <gmedina@ubuntu.ubuntu-domain>
+Date:   Thu Jun 18 00:33:20 2009 -0600
+
+    Added *.pyc to .gitignore
+
+commit cad0ee1611933fb46151752945470db24c6b4634
+Author: Gabriel Medina <gmedina@ubuntu.ubuntu-domain>
+Date:   Thu Jun 18 00:26:09 2009 -0600
+
+    Fixed errors in fetch
+
+commit e28962ec4e474d00bc80f716028ee556dd05e2c1
+Author: Gabriel Medina <rha7.com@gmail.com>
+Date:   Wed Jun 17 21:18:36 2009 -0600
+
+    Added python version of subdivx
+
+commit d7cd7a5da6204016b36f57b2521537e9d69a2b0a
+Author: Gabriel Medina <rha7.com@gmail.com>
+Date:   Wed Jun 10 13:06:01 2009 -0600
+
+    Added screenshot to readme.
+
+commit d8f503c862968611783a3f00feced535bb1495d3
+Author: Gabriel Medina <rha7.com@gmail.com>
+Date:   Wed Jun 10 13:01:04 2009 -0600
+
+    Added screenshot to readme.
+
+commit 3868fddb6226f2d0f8cfcb6678e1b19264a75147
+Author: Gabriel Medina <rha7.com@gmail.com>
+Date:   Wed Jun 10 12:58:14 2009 -0600
+
+    Added screenshot to readme.
+
+commit f40380b04487937340e653679a822ce73c1b3f8c
+Author: Gabriel Medina <rha7.com@gmail.com>
+Date:   Wed Jun 10 12:53:05 2009 -0600
+
+    Added screenshot to readme.
+
+commit ccfb0aee557d35883f52ad74b4f53af3eea51ce4
+Author: root <root@jupiter.(none)>
+Date:   Tue Jun 9 00:18:31 2009 -0600
+
+    Added LICENSE
+
+commit dac8cd031963e944f98fae5ab1304636d86b0fb3
+Author: root <root@jupiter.(none)>
+Date:   Mon Jun 8 23:56:35 2009 -0600
+
+    Version 0.1
+
 commit 19b7b2115b98178621a1cf4ecb848eba86a87794
 Author: root <root@jupiter.(none)>
 Date:   Mon Jun 8 23:53:43 2009 -0600
@@ -59,4 +119,3 @@ Date:   Mon Jun 8 20:09:49 2009 -0600
 
     Initial Import
 </pre>
-

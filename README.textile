@@ -30,6 +30,42 @@ p. Just unpack, install requirements and run.
 h2. Change Log
 
 <pre>
+commit 8bf93a7be5e5bf341d13410f211a810be01e82e0
+Author: Gabriel Medina <rha7.com@gmail.com>
+Date:   Thu Jun 18 14:03:30 2009 -0600
+
+    Modified it for installation at /var/lib/subdivx/
+
+commit 8e4affba855f62113ddd0c5c735f3443a19f31bb
+Author: Gabriel Medina <gmedina@ubuntu.ubuntu-domain>
+Date:   Thu Jun 18 02:28:24 2009 -0600
+
+    Updated image in README
+
+commit 2c8e552d0e5b382ea834b2db2a6246a989ea55c8
+Author: Gabriel Medina <gmedina@ubuntu.ubuntu-domain>
+Date:   Thu Jun 18 02:27:06 2009 -0600
+
+    Updated image in README
+
+commit fed8df7d76fe0969341e9765dd7347ffdfef80c2
+Author: Gabriel Medina <gmedina@ubuntu.ubuntu-domain>
+Date:   Thu Jun 18 02:17:20 2009 -0600
+
+    v0.2 - Second Release
+
+commit 779eece86a9594b1633dee25b678e7ca839f2f7e
+Author: Gabriel Medina <gmedina@ubuntu.ubuntu-domain>
+Date:   Thu Jun 18 02:15:25 2009 -0600
+
+    v0.1 - First Release
+
+commit ac182c38206cebc5b7660ec33f8f8470f83dcae5
+Author: Gabriel Medina <gmedina@ubuntu.ubuntu-domain>
+Date:   Thu Jun 18 02:04:43 2009 -0600
+
+    Updated README, disabled subdivx.rb, kept just for reference.
+
 commit 77938eb4dde14194fcb6d35b840887c528e40c77
 Author: Gabriel Medina <gmedina@ubuntu.ubuntu-domain>
 Date:   Thu Jun 18 02:02:19 2009 -0600

@@ -140,7 +140,7 @@ class SubDivXClient:
       else:
         raise IOError("Temp file subdivx couldn't be created or already exists as a file or with wrong permissions")
     else:
-      os.path,makedirs(out_dirs)
+      os.makedirs(out_dir)
       
     # Now we know we have the subdirectory to hold the file, generate the file name
     # using the above temporary directory and the file name we got from the content-disposition

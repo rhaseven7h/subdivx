@@ -12,14 +12,13 @@ h2. Requirements
 
 p. Packages:
 
-* Ruby
-* Gems
+p. Packages' versions used in development are shown in parenthesis.
 
-p. Gems
-
-* nokogiri
-* open-uri
-* Ruby-GNOME2
+* Glade (2.12.2-0ubuntu3) - Only needed for development
+* Python (python 2.6.2-0ubuntu1)
+* Python LXML (python-lxml 2.1.5-1ubuntu2)
+* Python GTK2 (python-gtk2 2.14.1-1ubuntu1)
+* Python Glade2 (python-glade2 2.14.1-1ubuntu1)
 
 h2. Installation
 

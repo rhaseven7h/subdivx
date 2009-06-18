@@ -10,8 +10,6 @@ p. !http://lh6.ggpht.com/_gswK3oaYqd0/Sjn5S74NHLI/AAAAAAAAAE0/wm7_uRIFPlQ/s576/S
 
 h2. Requirements
 
-p. Packages:
-
 p. Packages' versions used in development are shown in parenthesis.
 
 * Python (python 2.6.2-0ubuntu1)
